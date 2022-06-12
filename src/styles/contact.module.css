@@ -1,0 +1,37 @@
+* {
+    background-color: var(--white);
+}
+
+.container {
+    height: 50vh;
+    width: auto;
+    padding: 2.5vh 23.5vw 0px 23.5vw;
+}
+
+.container h1 {
+    margin-top: 124px;
+    margin-bottom: 40px;
+    color: var(--red);
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.container p {
+    width: 426px;
+    font-size: 20px;
+}
+
+.line {
+    height: 3px;
+    width: 420px;
+    background-color: var(--blue);
+    margin-top: 24px;
+    margin-bottom: 40px;
+
+}
+
+.graphic {
+    position: absolute;
+    top: 130px;
+    right: 140px;
+}

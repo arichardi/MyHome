@@ -1,5 +1,5 @@
 import React from 'react'
-import { container, redDot } from '../styles/InternalLinks.module.css'
+import { container} from '../styles/InternalLinks.module.css'
 
 export default function InternalLinks() {
     return (
@@ -8,7 +8,6 @@ export default function InternalLinks() {
             <p>Artigos</p>
             <p>Projetos</p>
             <p>Contato</p>
-            <div className={redDot}/>
         </div>
     )
 }
