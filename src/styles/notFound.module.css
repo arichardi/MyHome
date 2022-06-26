@@ -1,16 +1,23 @@
 .container {
+    background-color: var(--white);
     padding: 2.5vh 23.5vw 0px 23.5vw;
     height: 97.5vh;
     position: relative;
     overflow: hidden;
 }
 
-.container h1 {
-    font-size: 3.35rem;
+.tag {
+    display: flex;
+}
+
+.tag h1 {
     color: var(--red);
+    font-size: 3.35rem;
     font-weight: 900;
     margin-top: 125px;
     margin-bottom: 25px;
+    position: relative;
+    z-index: 10;
 }
 
 .container p {
@@ -21,18 +28,16 @@
     z-index: 10;
 }
 
-.line {
-    background-color: var(--blue);
-    height: 3px;
-    width: 42%;
-    margin-top: 46px;
-    margin-bottom: 46px;
-    position: relative;
-    z-index: 10;
+.bg {
+    color: salmon;
+    position: absolute;
+    left: 0;
+    top: 158px;
 }
 
-.myimage {
-    position: absolute;
-    top: 150px;
-    left: 750px;
+.lines {
+    position: relative;
+    top: 57px;
+    right: 12px;
+    z-index: 5;
 }

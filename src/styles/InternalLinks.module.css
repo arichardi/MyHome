@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.container p {
+.container .content {
     font-weight: 600;
     font-size: 16px;
     margin-left: 22px;
@@ -14,8 +14,21 @@
     cursor: pointer;
     
 }
+.container .home {
+    color: var(--white);
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 5px;
+    transition: color 0,3s, font-weight 0,3s;
+    cursor: pointer;
+    
+}
 
-.container p:hover{
+.container .home:hover{
+    font-weight: 800;
+    color: var(--red);
+}
+.container .content:hover{
     font-weight: 800;
     color: var(--red);
 }

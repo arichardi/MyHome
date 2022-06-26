@@ -1,26 +1,30 @@
 .container {
     display: flex;
-    flex: 1;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: cornsilk;
-}
 
-.whiteBlock{
+}
+.whiteSection {
+    background-color: var(--white);
+    width: 40vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 40vw;
-    background-color: var(--white);
+    justify-content: space-between;
+    
+}
+
+.whiteSection h1 {
+    width: 390px;
+    height: 290px;
+    font-size: 84px;
+    font-weight: 800;
+    margin-left: 150px;
+    margin-bottom: 80px;
 
 }
 
-.whiteBlock h1 {
-    font-size: 90px;
-    font-weight: 900;
-    margin-top: -10px;
-    margin-left: 8vw;
+.apresentation {
+    display: flex;
+    align-items: flex-end;
 }
 
 .redDot {
@@ -28,94 +32,92 @@
     width: 26px;
     border-radius: 13px;
     background-color: var(--red);
-    margin-top: 54px;
-    margin-left: 15px;
+    margin-bottom: 80px;
 }
 
-.lastNameLine {
-    display: flex;
-    flex-direction: row;
-}
-
-.boxContainer{
-    position: absolute;
-    top: 0px;
-}
-
-.redbox {
-    height: 25px;
+.redBox {
     width: 25px;
+    height: 25px;
     background-color: var(--red);
 }
-.whitebox {
-    height: 25px;
+
+.blueBox {
     width: 25px;
-    background-color: var(--white);
-}
-.bluebox {
     height: 25px;
-    width: 25px;
     background-color: var(--blue);
 }
-.blackbox {
-    height: 25px;
+
+.darkBox {
     width: 25px;
+    height: 25px;
     background-color: var(--dark);
+}
+
+.blackSection {
+    background-color: var(--dark);
+    width: 60vw;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blackSection p {
+    color: var(--white);
+    background-color: var(--dark);
+}
+
+.blackSection .graph {
+    position: absolute;
+    z-index: 2;
+    right: 230px;
+}
+
+.whiteLine {
+    width: 3px;
+    height: 260px;
+    background-color: var(--white);
+    margin-right: 16px;
+}
+
+.CTA {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 40px;
+}
+
+.CTA p {
+    height: 166px;
+    width: 256px;
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .linksContainer {
     display: flex;
-    flex-direction: row;
-    margin-top: 240px;
-    margin-left: 8vw;
-}
+    align-self: flex-start;
+    transform: rotateZ(90deg);
+    width: 24px;
+    margin-right: 25px;
+    margin-top: 38px;
 
-.linksContainer a {
-    margin-right: 12px;
-}
+}   
 
-.calltoAct {
-    margin-top: 284px;
-}
-
-.blackBlock {
-    background-color: var(--dark);
-    height: 100vh;
-    width: 60vw;
-    overflow: hidden;
-}
-
-.blackBlock p {
-    color: var(--white);
-    width: 260px;
-    height: 166px;
-}
-
-.backgroundImage {
-    position: relative;
-    right: 350px;
-}
-
-.lineImage {
-    position: relative;
-}
-
-.fineText{
-    display: flex;
+.miniRedDot {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color: var(--red);
     position: absolute;
-    bottom: 0px;
-    left: 1100px;
+    left: 415px;
+    top: 9px;
+
 }
 
-.fineText p {
-    margin-left: 16px;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.links{
-    position: relative;
-    bottom: 750px;
-    left: 850px;
-
+.socialLinksContainer {
+    margin-bottom: 87px;
+    margin-left: 150px;
 }

@@ -1,0 +1,74 @@
+.container {
+    padding: 2.5vh 23.5vw 0px 23.5vw;
+    height: 97.5vh;
+}
+
+.myProjectsHeading {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.myProjectsHeading h1 {
+    font-size: 54px;
+    font-weight: 900;
+    color: var(--red);
+    margin-bottom: 24px;
+}
+
+.myProjectsHeading p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 426px;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.projectContainer h2{
+    font-size: 32px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    background-color: var(--blue);
+    margin-bottom: 120px;
+}
+
+.block {
+    width: 410px;
+    height: 270px;
+    background-color: white;
+}
+
+.projectUnit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.projectUnit h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--red);
+}
+
+.projectUnit p{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.unit {
+    width: 436px;
+    height: 241px;
+}
