@@ -1,5 +1,6 @@
 .container {
     padding: 2.5vh 23.5vw 0px 23.5vw;
+    background-color: var(--white);
 
 }
 

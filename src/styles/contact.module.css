@@ -3,6 +3,7 @@
     height: 97.5vh;
     position: relative;
     overflow: hidden;
+    background-color: var(--white);
 }
 
 .container h1 {

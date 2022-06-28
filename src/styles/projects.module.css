@@ -1,6 +1,7 @@
 .container {
     padding: 2.5vh 23.5vw 0px 23.5vw;
     height: 97.5vh;
+    background-color: var(--white);
 }
 
 .myProjectsHeading {

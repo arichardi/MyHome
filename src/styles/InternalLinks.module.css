@@ -40,3 +40,21 @@
     background-color: var(--red);
     margin-left: 4px;
 }
+
+.hamburgerContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+
+}
+
+.hamburgerContainer .content {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hamburgerContainer .content:hover {
+    color: var(--red);
+}

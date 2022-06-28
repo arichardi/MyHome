@@ -1,9 +1,11 @@
 import React from 'react'
+import HeaderApp from '../components/HeaderApp'
+import { container } from '../styles/teste.module.css'
 
 export default function teste() {
   return (
-    <div>
-      <p>teste</p>
+    <div className={container}>
+      <HeaderApp />
     </div>
   )
 }
