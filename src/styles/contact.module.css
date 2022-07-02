@@ -25,7 +25,7 @@
 .line {
     background-color: var(--blue);
     height: 3px;
-    width: 42%;
+    width: 460px;
     margin-top: 46px;
     margin-bottom: 46px;
     position: relative;
@@ -33,7 +33,68 @@
 }
 
 .myimage {
+    display: flex;
     position: absolute;
     top: 150px;
     left: 750px;
+}
+
+@media (max-width: 1444px){
+
+    .container {
+        padding: 2.5vh 5% 0px 5%;
+    }
+}
+
+@media (max-width: 1024px){
+
+    .container {
+        padding: 2.5vh 5% 0px 5%;
+    }
+
+
+    .container h1 {
+        font-size: 48px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+
+    .myimage {
+        width: 70vw;
+        top: 15vh;
+        left: 50vh;
+        top: 15vh;
+        left: 50vh;
+    }
+}
+
+@media(max-width: 600px){
+
+    .container{
+        height: 100vh;
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .container p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .line {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 20px;
+    }
+
+    .myimage {
+        margin-top: 200px;
+        left:40vw;
+        bottom: -0;
+    }
+
 }

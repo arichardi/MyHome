@@ -1,7 +1,5 @@
 .container {
-    padding: 2.5vh 23.5vw 0px 23.5vw;
-    background-color: var(--white);
-
+    padding: 2.5vh 23% 0px 23%;
 }
 
 .headline {
@@ -11,16 +9,12 @@
 }
 
 .headline h1 {
-    font-size: 54px;
-    font-weight: 900;
-    color: var(--red);
     margin-bottom: 24px;
+    color: var(--red);
 }
 
 .headline p {
-    font-size: 20px;
-    font-weight: 400;
-    width: 426px;
+    width: 22.5vw;
 }
 
 .line {
@@ -35,10 +29,6 @@
     justify-content: space-between;
 }
 
-.tagline h2{
-    font-size: 32px;
-    font-weight: 700;
-}
 
 .tagline p {
     font-size: 24px;
@@ -64,10 +54,112 @@
 
 }
 
+.article p {
+    color: var(--red);
+    font-weight: 500;
+}
+
 .articleDivider {
     height: 1px;
     width: 100%;
     background-color: #b8b8b8;
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+.imageContainer {
+    display: flex;
+    width: 47.5%;
+    height: 30%;
+    justify-content: center;
+
+}
+
+
+
+
+@media (max-width: 1444px){
+    .container {
+        padding: 2.5vh 10% 0px 10%;
+    }
+
+    .headline p {
+        width: 30vw;
+    }
+
+
+}
+@media (max-width: 1024px){
+    .container {
+        padding: 2.5vh 5% 0px 5%;
+    }
+
+    .headline p {
+        width: 40vw;
+        font-size: 16px;
+        margin-bottom: 80px;
+    }
+    
+
+    .container h1 {
+        font-size: 48px;
+    }
+
+    .article h4 {
+        width: 610px;
+    }
+
+    .article p {
+        width: 82px;
+    }
+}
+
+
+@media (max-width: 600px){
+    
+    .headline p {
+        width: 80vw;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        right: 40px;
+        top: 0px;
+        width: 80px;
+
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .headline p {
+        font-size: 15px;
+        margin-bottom: 80px;
+    }
+
+    .tagline h2 {
+        font-size: 18px;
+    }
+
+    .tagline p {
+        font-size: 16px;
+    }
+
+    .article h3 {
+        font-size: 15px;
+    }
+
+    .article h4 {
+        font-size: 14px;
+        width: 297px;
+    }
+
+    .article p {
+        font-size: 14px;
+        width: 44px;
+    }
+
 }

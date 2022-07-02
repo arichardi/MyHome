@@ -1,5 +1,5 @@
 import React from 'react'
-import { container, headline,line, tagline } from '../styles/articles.module.css'
+import { container, headline,line, tagline, imageContainer } from '../styles/articles.module.css'
 import HeaderApp from '../components/HeaderApp'
 import ArticleSVG from '../SVG/articles'
 import Article from '../components/Article'
@@ -14,7 +14,9 @@ export default function articles() {
                     <h1>Meus Artigos</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget neque purus. Maecenas accumsan interdum mi quis tempus. Quisque sed fringilla nunc. Nulla vitae hendrerit velit. Phasellus vulputate rhoncus leo, id dapibus quam pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 </div>
-                <ArticleSVG />
+                <div className={imageContainer}>
+                    <ArticleSVG />
+                </div>
             </div>
 
             <div>
