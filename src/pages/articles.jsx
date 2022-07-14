@@ -1,10 +1,16 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Divider from '../components/Divider'
 import HeaderApp from '../components/HeaderApp'
-import { container, SVGContainer, CTA, ArticlesHeading, Article, ArticleContainer, ArticleTitle, ArticleDate } from '../styles/articles.module.css'
+import { container, SVGContainer, CTA, ArticlesHeading} from '../styles/articles.module.css'
 import ArticlesSVG from '../SVG/articles'
+import ArticleLink from '../components/ArticleLink'
 
-export default function articles() {
+export default function articles({data}) {
+
+    const articles = data.allMarkdownRemark.nodes
+    console.log(articles)
+
     return (
         <div className={container}>
             <nav>
@@ -23,16 +29,33 @@ export default function articles() {
                     <h3>data</h3>
                 </div>
                 <Divider />
-                <div className={ArticleContainer}>
-                    <div className={Article}>
-                        <div className={ArticleTitle}>
-                            <h3>Testes no Jest</h3>
-                            <h5>Como utilizar testes para manter a unidade do código</h5>
-                        </div>
-                        <h4 className={ArticleDate}>jul - 21</h4>
-                    </div>
-                </div>
+                { articles.map( article => (
+                    <ArticleLink 
+                    key={article.frontmatter.id}
+                    slug={article.frontmatter.slug}
+                    title={article.frontmatter.title}
+                    subtitle={article.frontmatter.subtitle}
+                    date={article.frontmatter.date}
+                    />
+                ))}
             </section>
         </div>
     )
 }
+
+export const query = graphql`
+query {
+    allMarkdownRemark {
+      nodes {
+        frontmatter {
+          date
+          slug
+          subtitle
+          title
+        }
+        id
+      }
+    }
+  }
+  
+`

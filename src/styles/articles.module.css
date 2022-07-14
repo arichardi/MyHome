@@ -5,7 +5,7 @@
 .CTA {
     margin-top: 42px;
     display: grid;
-    grid-template: 85px 1fr /200px 1fr;
+    grid-template: 80px 1fr /200px 1fr;
 }
 
 .CTA p {
@@ -19,6 +19,7 @@
 .SVGContainer{
     width: 80px;
     height: 80px;
+    justify-self: flex-end;
 }
 
 .ArticlesHeading{
@@ -35,9 +36,81 @@
 
 .ArticleDate {
     align-self: center;
-    width: 70px;
+    text-align: end;
+    width: 14vw;
 }
 
 .ArticleContainer {
     margin-top: 20px;
+}
+
+.ArticleTitle{
+
+}
+
+@media (min-width:500px){
+
+    .CTA {
+        margin-top: 80px;
+        grid-template: 140px 1fr /70% 1fr;
+    }
+    
+    .CTA p {
+        grid-column: 1 / 3;
+    }
+    
+    .CTA h1 {
+        align-self: center;
+    }
+
+    .SVGContainer{
+        height: 140px;
+        width: 20vw;
+        align-content: center;
+    }
+}
+
+@media (min-width: 650px){
+    
+    .CTA {
+        margin-top: 100px;
+        grid-template: 85px 1fr /55% 1fr;
+    }
+    
+    .CTA p {
+        grid-column: 1 / 2;
+    }
+    
+    .CTA h1 {
+        align-self: center;
+    }
+
+    .SVGContainer{
+        width: 35vw;
+        height: 300px;
+        grid-rows: 1 / 3;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .container {
+        padding: 12px 6vw 0px 6vw;
+    }
+}
+@media (min-width: 1400px){
+    .container {
+        padding: 12px 20vw 0px 20vw;
+    }
+
+    .CTA {
+        margin-top: 100px;
+        grid-template: 140px 1fr /55% 1fr;
+    }
+
+    .ArticlesHeading {
+        margin-top: 110px;
+    }
+
 }

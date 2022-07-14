@@ -1,0 +1,18 @@
+.container {
+    padding: 12px 12px 0px 12px;
+}
+
+@media (min-width: 1024px){
+    .container {
+        padding: 12px 6vw 0px 6vw;
+    }
+}
+@media (min-width: 1400px){
+    .container {
+        padding: 12px 20vw 0px 20vw;
+    }
+}
+
+.htmlContent{
+    white-space: pre;
+}
