@@ -9,12 +9,11 @@ import ArticleLink from '../components/ArticleLink'
 export default function articles({data}) {
 
     const articles = data.allMarkdownRemark.nodes
-    console.log(articles)
 
     return (
         <div className={container}>
             <nav>
-                <HeaderApp />
+                <HeaderApp selector={"articles"} />
             </nav>
             <section className={CTA}>
                 <h1>Meus Artigos</h1>
@@ -29,22 +28,29 @@ export default function articles({data}) {
                     <h3>data</h3>
                 </div>
                 <Divider />
-                { articles.map( article => (
-                    <ArticleLink 
-                    key={article.frontmatter.id}
-                    slug={article.frontmatter.slug}
-                    title={article.frontmatter.title}
-                    subtitle={article.frontmatter.subtitle}
-                    date={article.frontmatter.date}
-                    />
-                ))}
+                { articles.map( article => {
+
+                    const options = { month: 'short', year: "2-digit"}
+                    const articleDate = new Date(article.frontmatter.date)
+                    const formattedDate = articleDate.toLocaleDateString("pt-br", options).replace(". de ", " - ")
+                    
+                    return (
+                        <ArticleLink 
+                        key={article.frontmatter.id}
+                        slug={article.frontmatter.slug}
+                        title={article.frontmatter.title}
+                        subtitle={article.frontmatter.subtitle}
+                        date={formattedDate}
+                        />
+                        )
+                })}
             </section>
         </div>
     )
 }
 
 export const query = graphql`
-query {
+query articleList{
     allMarkdownRemark {
       nodes {
         frontmatter {

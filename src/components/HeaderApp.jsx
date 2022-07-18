@@ -4,7 +4,7 @@ import HamburgerLinks from './HamburgerLinks'
 import HamburguerSVG from '../SVG/hamburguer'
 import { container, linksContainer, desktopNav, mobilepNav, hamburguerButton } from '../styles/HeaderApp.module.css'
 
-export default function HeaderApp() {
+export default function HeaderApp({selector}) {
 
     const [openLinks, setOpenLinks] = useState(false)
 
@@ -13,7 +13,7 @@ export default function HeaderApp() {
             <h5>Andre Richardi</h5>
             <div className={linksContainer}>
                 <div className={desktopNav}>
-                    <InternalLinks />
+                    <InternalLinks selector={selector}/>
                 </div>
                 <div className={mobilepNav}>
                     <div className={hamburguerButton} onClick={() => setOpenLinks(!openLinks)}>

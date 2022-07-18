@@ -59,12 +59,35 @@
 
 .hamburgerContainer .content {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: var(--extra-bold);
     color: var(--white);
     position: relative;
     z-index: 11;
 }
 
 .hamburgerContainer .content:hover {
+    color: var(--red);
+    
+}
+
+.container .about {
+    font-weight: var(--extra-bold);
+    color: var(--red);
+    margin-left: 22px;
+    
+}
+
+.container .articles{
+    font-weight: var(--extra-bold);
+    color: var(--red);
+}
+
+.container .projects{
+    font-weight: var(--extra-bold);
+    color: var(--red);
+}
+
+.container .contact {
+    font-weight: var(--extra-bold);
     color: var(--red);
 }

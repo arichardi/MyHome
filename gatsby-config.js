@@ -25,10 +25,5 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-  ],
-  siteMetadata: {
-    title: 'Andre Richardi homesite',
-    description: 'My personal portfolio and blog',
-    contact: 'a.richardi@gmail.com'
-  }
+  ]
 }

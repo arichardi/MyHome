@@ -1,0 +1,67 @@
+.container {
+    padding: 12px 12px 0px 12px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.ContainerSVG {
+    position: absolute;
+    width: 80vw;
+    bottom: 0; 
+    left: 40vw;  
+}
+
+.container h1{
+    margin-top: 88px;
+}
+
+.container p{
+    margin-top: 22px;
+    margin-bottom: 50px;
+}
+
+
+@media (min-width: 650px){
+    .container {
+        padding: 12px 3vw 0px 3vw;
+    }
+
+    .containerSection {
+        width: 60%;
+        height: auto;
+    }
+
+    .ContainerSVG{
+        height: 50vh;
+
+    }
+
+
+}
+@media (min-width: 1024px){
+    .container {
+        padding: 12px 6vw 0px 6vw;
+    }
+
+    .containerSection {
+        width: 50%;
+        height: auto;
+    }
+
+    .ContainerSVG{
+        height: 70vh;
+    }
+
+
+}
+@media (min-width: 1400px){
+    .container {
+        padding: 12px 20vw 0px 20vw;
+    }
+    .ContainerSVG{
+        height: 85vh;
+        left: 30vw;
+    }
+}
+

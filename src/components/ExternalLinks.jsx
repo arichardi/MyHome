@@ -4,7 +4,7 @@ import '../styles/ExternalLinks.module.css'
 
 export default function ExternalLinks() {
     return (
-        <div>
+        <div style={{ marginTop: 16 }} >
           <a href="https://www.instagram.com/arichardi/?hl=en"> 
             <Instagram />
           </a>
