@@ -3,6 +3,7 @@ title: "Primeiro teste de markdown"
 subtitle: "Ways of testing my markdown"
 date: 2022-01-01
 slug: primeiro-teste
+tech: [none]
 ---
 
   # Primeiro teste de markdown.  
@@ -30,6 +31,12 @@ slug: primeiro-teste
 - [x] #739  						--> para lista de tarefas feitas
 - [ ] https://github.com/octo-org/octo-repo/issues/740
   
+Esse é um teste de enfase
+
+>Essa é a primeira fase em enfase
+>
+>E essa também está inclusa
+  
   Lista de presidentes
   
 - George Washington
@@ -41,9 +48,10 @@ slug: primeiro-teste
   
   Vamos fazer um link para eu ver como funciona por exemplo para o [uol](http://www.uol.com.br "meu site de noticias")
   
-  ```javascript
+```javascript
+console.log('essa é um novo teste');
 
-console.log('esse é um teste de código')
+objeto.testes('teste de objeto') //hightlight-line
 
 ```
   

@@ -1,46 +1,35 @@
 ---
-title: "Segundo teste de markdown"
-subtitle: "Ways of testing my markdown"
-date: 2022-01-02
-slug: segundo-teste
+title: "Testes na sua aplicação utilizando o Jest."
+subtitle: "O jeito mais rápido e pratico para você testar as suas aplicações de maneira efetiva e funcional"
+date: 2022-09-03
+slug: "Test_in_jest"
+tech: ["javascript", "node", "jest"]
 ---
 
-#Primeiro teste de markdown
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
 
-Esse é a orquivo que eu vou usar para testar o meu markdown
+img1
+olha que bonita a imagem a cima
 
-##Esse é um H2##
-###Esse é um H3###
-####Esse é um H4####
-#####Esse é um H5#####
+### Testes na sua aplicação utilizando o Jest.
 
-Essa é uma estrutura onde eu escrevo em **NEGRITO** e essa é uma estrutura onde eu escrevo em *Italico*
-
-Vamos fazer um sistema de listas
-
-1. Primeiro item da lista
-   - Primeiro item de lista aninhado      
-     - Segundo item de lista aninhada
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
 
 
-Vamos fazer um sistema de listas feitas
+>Os testes são um guia não só para refatorar códigos mas podem servir para ajudar a construir e ditar as regras de negócio
 
-- [x] #739  						--> para lista de tarefas feitas
-- [ ] https://github.com/octo-org/octo-repo/issues/740
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
 
-Lista de presidentes
 
-- George Washington
-- George Washington
-- George Washington
+img2
+Olha a imagem dois
 
-Essa é uma imagem 
-![Isso é uma imagem](https://myoctocat.com/assets/images/base-octocat.svg)
-
-Vamos fazer um link para eu ver como funciona por exemplo para o [uol](www.uol.com.br)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
 
 ```javascript
 
-console.log('esse é um teste de código')
+for(let x = 0; x < contagem.length; x++){
+  console.log('Eu estou no caminho');
+}
 
 ```
