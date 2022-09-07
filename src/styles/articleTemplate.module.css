@@ -2,13 +2,11 @@
     padding: 12px 12px 0px 12px;
 }
 
-.head {
-    margin-top: 80px;
-}
 
 .techInUse {
     display: flex;
     margin-top: 4px;
+    margin-bottom: 80px;
 }
 
 .techInUse h5 {
@@ -28,7 +26,7 @@ h4 {
 
 .publiDate {
     display: flex;
-    margin-top: 24px;
+    margin-top: 54px;
     margin-bottom: 8px;
 }
 
@@ -36,18 +34,83 @@ h4 {
     margin-right: 8px;
 }
 
+.htmlContent{
+    margin-top: 34px;
+
+}
+
+.htmlContent h3 {
+    margin-top: 32px;
+    margin-bottom: 26px;
+}
+
+.htmlContent p {
+    margin-bottom: 16px;
+}
+
+.blogPost {
+
+    width: min(100%, 680px);
+    margin: auto;
+}
+
+.blogPost h1 {
+    margin-top: 100px;
+}
+
+.postContent{
+    width: min(100%, 680px);
+    margin: auto;
+}
+
+blockquote p {
+    line-height: 32px;
+    font-weight: var(--medium);
+}
+
+blockquote {
+
+    border-left-width: 8px;
+    border-left-color: var(--red);
+    border-left-style: solid;
+    border-radius: 8px;
+    padding-left: 12px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+img .gatsby-resp-image-wrapper{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 500px){
+    .publiDate h5 {
+        font-size: 18px;
+    }
+}
+
 @media (min-width: 1024px){
     .container {
         padding: 12px 6vw 0px 6vw;
     }
+
+    .techInUse h5 {
+        font-size: 18px;
+    }
+
+    .publiDate h5 {
+        font-size: 20px;
+    }
+
+    .publiDate h3 {
+        font-size: 20px;
+    }
+
 }
 @media (min-width: 1400px){
     .container {
         padding: 12px 20vw 0px 20vw;
     }
-}
 
-.htmlContent{
-    white-space: pre;
-    margin-top: 34px;
 }

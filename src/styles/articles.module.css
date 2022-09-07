@@ -37,7 +37,8 @@
 .ArticleDate {
     align-self: center;
     text-align: end;
-    width: 14vw;
+    width: 20vw;
+    color: var(--red);
 }
 
 .ArticleContainer {
@@ -45,7 +46,7 @@
 }
 
 .ArticleTitle{
-
+    width: min(75%, 600px);
 }
 
 @media (min-width:500px){
@@ -98,6 +99,12 @@
     .container {
         padding: 12px 6vw 0px 6vw;
     }
+
+    .ArticleTitle{
+        width: 80vw;
+    }
+    
+
 }
 @media (min-width: 1400px){
     .container {

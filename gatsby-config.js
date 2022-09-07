@@ -7,31 +7,19 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              inlineCodeMarker: null,
-              aliases: {},
-              showLineNumbers: false,
-              noInlineHightlight: false,
-            }
-          }
-        ]
-      }
-    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
-        path: `${__dirname}/src/content/`,
+        path: `${__dirname}/src/content/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `contentImages`,
+        path: `${__dirname}/src/content/images`,
       },
     },
     {
@@ -41,5 +29,34 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHightlight: false,
+            }
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              withWebp: true,
+              wrapperStyle: "margin-top: 32px !important; margin-bottom: 32px !important;",
+            },
+          },
+        ]
+      }
+    },
+
   ]
 }

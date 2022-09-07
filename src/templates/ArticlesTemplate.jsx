@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import HeaderApp from '../components/HeaderApp'
 import Divider from '../components/Divider'
-import { container, htmlContent, head, publiDate, techInUse } from '../styles/articleTemplate.module.css'
+import { container, htmlContent, publiDate, techInUse, blogPost, postContent } from '../styles/articleTemplate.module.css'
 
 export default function ArticlesTemplate({data}) {
 
@@ -16,7 +16,7 @@ export default function ArticlesTemplate({data}) {
       <nav>
         <HeaderApp />
       </nav>
-      <section className={head}>
+      <section className={blogPost}>
           <h1>{title}</h1>
           <h4>{subtitle}</h4>
 
@@ -37,7 +37,7 @@ export default function ArticlesTemplate({data}) {
         </div>
 
       </section>
-      <section>
+      <section className={postContent}>
         <div dangerouslySetInnerHTML={{__html: html}} className={htmlContent}></div>
       </section>
     </div>

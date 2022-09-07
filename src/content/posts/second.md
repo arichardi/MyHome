@@ -8,23 +8,27 @@ tech: ["javascript", "node", "jest"]
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
 
-img1
-olha que bonita a imagem a cima
+![exemplo de imagem](../images/teste_IMG_1.jpg)
+
 
 ### Testes na sua aplicação utilizando o Jest.
 
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
+
 
 
 >Os testes são um guia não só para refatorar códigos mas podem servir para ajudar a construir e ditar as regras de negócio
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
-
-
-img2
-Olha a imagem dois
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
+
+
+![Exemplo da imagem 2](../images/teste_IMG_2.jpg)
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at. Libero nunc consequat interdum varius sit. In tellus integer feugiat scelerisque varius. Feugiat vivamus at augue eget arcu dictum varius. Vel eros donec ac odio tempor. Lectus quam id leo in vitae turpis massa sed elementum. Viverra mauris in aliquam sem. Velit sed ullamcorper morbi tincidunt ornare massa eget. Nec dui nunc mattis enim ut tellus. Et netus et malesuada fames. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Egestas diam in arcu cursus euismod quis viverra nibh cras.
+
 
 ```javascript
 
@@ -33,3 +37,7 @@ for(let x = 0; x < contagem.length; x++){
 }
 
 ```
+
+Esse é o paragrafo da milla.
+
+>que mulher bonita, meu deus.

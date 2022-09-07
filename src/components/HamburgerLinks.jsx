@@ -7,7 +7,7 @@ export default function HamburgerLinks() {
         <div className={hamburgerContainer}>
             <Link to={'/about'} className={content}> Sobre</Link>
             <Link to={'/articles'} className={content}> Artigos</Link>
-            <Link to={'/projects'} className={content}  >Projetos</Link>
+{/*             <Link to={'/projects'} className={content}  >Projetos</Link> */}
             <Link to={'/contact'} className={content}  >Contato</Link>
         </div>
     )
