@@ -13,9 +13,24 @@
 }
 
 .aboutMe img{
+    margin: auto;
     margin-top: 65px;
+    height: auto;
+    width: min(100%, 400px);
+
 }
 
+.tagSection {
+    margin-top: 60px;
+}
+
+.tagSection p {
+    margin-top: 16px;
+}
+
+.whiteSpace{
+    height: 200px;
+}
 
 @media (min-width: 650px){
     .container {
@@ -23,11 +38,43 @@
     }
 
 
+
 }
 @media (min-width: 1024px){
     .container {
         padding: 12px 6vw 0px 6vw;
     }
+
+    .aboutMe {
+        flex-direction: row;
+    
+    }
+
+    .aboutMe img {
+        padding-top: 70px;
+    }
+
+    .aboutMe div {
+        width: 60%;
+        margin-right: 40px;
+    }
+
+    .tagSection div {
+        display: flex;
+        align-items: center;
+    }
+
+    .tagSection p {
+        margin-top: 24px;
+        width: 60%;
+        margin-right: 40px;
+        height: 110%;
+    }
+
+    .tagSection img {
+        margin-top: 24px;
+    }
+
 
 
 }

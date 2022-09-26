@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 300px;
     align-items: center;
     justify-content: space-between;
 }
@@ -80,14 +80,17 @@
 .container .articles{
     font-weight: var(--extra-bold);
     color: var(--red);
+    margin-left: 22px;
 }
 
 .container .projects{
     font-weight: var(--extra-bold);
     color: var(--red);
+    margin-left: 22px;
 }
 
 .container .contact {
     font-weight: var(--extra-bold);
     color: var(--red);
+    margin-left: 22px;
 }

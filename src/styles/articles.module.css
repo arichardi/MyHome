@@ -89,7 +89,7 @@
     .SVGContainer{
         width: 35vw;
         height: 300px;
-        grid-rows: 1 / 3;
+        grid-row: 1 / 3;
         justify-content: center;
     }
 

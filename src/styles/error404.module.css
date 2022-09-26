@@ -6,7 +6,53 @@
     margin-top: 88px;
 }
 
+.linesContainer{
+    width: 50px;
+}
 
+.threeLines{
+    display: flex;
+
+}
+
+
+
+.SVGSmall{
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    left: 0;
+    bottom: 0px; 
+    overflow: hidden;
+}   
+
+.SVGMedium {
+    display: none;
+}
+
+.SVGBig {
+    display: none;
+}
+
+@media (min-width: 500px){
+
+    .errorText{
+        width: 60%;
+    }
+
+    .SVGSmall{
+        display: none;
+    } 
+
+    
+    .SVGMedium{
+        display: flex;
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        bottom: 0px; 
+    } 
+}
 
 @media (min-width: 650px){
     .container {
@@ -15,6 +61,22 @@
 
 
 }
+
+@media (min-width: 800px){
+    .SVGMedium{
+        display: none;
+    } 
+
+    .SVGBig{
+        display: flex;
+        position: absolute;
+        width: 97vw;
+        left: 0;
+        bottom: 0px; 
+    } 
+
+}
+
 @media (min-width: 1024px){
     .container {
         padding: 12px 6vw 0px 6vw;
