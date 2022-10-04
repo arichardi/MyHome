@@ -16,7 +16,7 @@ export default function Error404() {
                     <Errorlines />
                 </div>
             </div>
-            <p>Eu não sei o que você está procurando, mas acredito que está navegando por mares incertos, ou eu simplesmente não estou entregando o que deveria, o que as vezes acontece também <br/>De uma olhada no menu acima e talvez você encontre o link que está procurando</p>
+            <p>Eu não sei o que você está procurando, mas acredito que está navegando por mares incertos, ou eu simplesmente não estou entregando o que deveria, o que as vezes acontece também.<br/>De uma olhada no menu acima e talvez você encontre o link que está procurando</p>
         </section>
         <section>
           <div>

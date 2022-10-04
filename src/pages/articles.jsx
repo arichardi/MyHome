@@ -20,7 +20,7 @@ export default function articles({data}) {
                 <div className={SVGContainer}>
                     <ArticlesSVG />
                 </div>
-                <p>Como forma de desenvolvimento pessoal, tenho escrito artigos de tudo que eu estou estudando. É uma forma de reforçar o meu processo de aprendizado, ao mesmo tempo que crio um material de referencia para consultas futuras e um registro do que tenho feito e produzido. Como esses artigos espero também poder ajudar outras pessoas de alguma forma e criar contatos através de pontos de interesse. Espero que você faça bom uso e encontre algo que te possa ser útil</p>
+                <p>Como forma de desenvolvimento pessoal, tenho escrito artigos de tudo que eu estou estudando. É uma forma de reforçar o meu processo de aprendizado, ao mesmo tempo que crio um material de referência para consultas futuras, um registro do que tenho feito e produzido. Com esses artigos, espero também poder ajudar outras pessoas de alguma forma e criar contatos através de pontos de interesse. Espero que você faça bom uso e encontre algo que te possa ser útil.</p>
             </section>
             <section>
                 <div className={ArticlesHeading}>

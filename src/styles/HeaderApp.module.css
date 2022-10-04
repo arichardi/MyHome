@@ -5,6 +5,14 @@
     justify-content: space-between;
 }
 
+.containerHome {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
 .container h5 {
     font-size: 20px;
     font-weight: 800;
@@ -38,3 +46,13 @@
 
 
 }
+
+@media (max-width: 1400px) {
+
+    .containerHome{
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+}
+

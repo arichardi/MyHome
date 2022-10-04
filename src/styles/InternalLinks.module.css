@@ -1,7 +1,6 @@
 .container {
     display: flex;
     flex-direction: row;
-    width: 300px;
     align-items: center;
     justify-content: space-between;
 }
@@ -14,11 +13,20 @@
     cursor: pointer;
     
 }
+
+.minidot{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--red);
+
+}
+
 .container .home {
     color: var(--white);
     font-weight: 800;
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 22px;
     transition: color 0,3s, font-weight 0,3s;
     cursor: pointer;
     
@@ -93,4 +101,27 @@
     font-weight: var(--extra-bold);
     color: var(--red);
     margin-left: 22px;
+}
+
+@media (min-width: 1400px){
+
+    .minidot{
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        background-color: var(--red);
+
+    
+    }
+    
+    .container .home {
+        color: var(--white);
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 22px;
+        transition: color 0,3s, font-weight 0,3s;
+        cursor: pointer;
+        
+    }
+
 }

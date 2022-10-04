@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 export default function InternalLinks({selector = content}) {
     console.log(selector)
     return (
-        <div className={container}>
+        <div className={container} style={{width: 300}}>
             <Link to={'/about'} className={selector === "about" ? about : content }>Sobre</Link>
             <Link to={'/articles'} className={selector === "articles" ? articles : content }>Artigos</Link>
 {/*             <Link to={'/projects'} className={selector === "projects" ? projects : content }  >Projetos</Link> */}

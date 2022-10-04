@@ -1,10 +1,13 @@
 import React from 'react'
-import { Instagram, Behance, Github, LinkedIn} from '../SVG'
-import '../styles/ExternalLinks.module.css'
+import { Instagram, Behance, Github, LinkedIn, Email} from '../SVG'
+import { containerLinks } from '../styles/ExternalLinks.module.css'
 
 export default function ExternalLinks() {
     return (
-        <div style={{ marginTop: 16 }} >
+        <div style={{ marginTop: 16 }} className={containerLinks} >
+          <a href="mailto: a.richardi@gmail.com"> 
+            <Email />
+          </a>
           <a href="https://www.instagram.com/arichardi/?hl=en"> 
             <Instagram />
           </a>

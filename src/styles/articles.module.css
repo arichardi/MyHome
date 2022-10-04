@@ -62,12 +62,14 @@
     
     .CTA h1 {
         align-self: center;
+        grid-column: 1 / 2;
     }
 
     .SVGContainer{
         height: 140px;
         width: 20vw;
         align-content: center;
+        grid-column: 2/3;
     }
 }
 

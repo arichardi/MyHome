@@ -1,0 +1,27 @@
+.blockContainer {
+
+}
+
+.redbox {
+    width: 25px;
+    height: 25px;
+    background-color: var(--red);
+}
+
+.whitebox {
+    width: 25px;
+    height: 25px;
+    background-color: var(--white);
+} 
+
+.bluebox{
+    width: 25px;
+    height: 25px;
+    background-color: var(--blue);
+}
+
+.darkbox{
+    width: 25px;
+    height: 25px;
+    background-color: var(--dark);
+} 
