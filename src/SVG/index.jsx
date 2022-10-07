@@ -9,3 +9,4 @@ export {default as ErrorBG} from './ErrorBG'
 export {default as ErrorSmall} from './ErrorSmall'
 export {default as ErrorMedium} from './ErrorMedium'
 export {default as HomeSVG} from './homeSVG'
+
