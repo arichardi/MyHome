@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaderApp from '../components/HeaderApp'
-import { containerMain, redDot, blackSectionTop, blackSectionBottom, whiteSection,lastName, SVGContainer, CTA, line, CTABlack, linewhite, containerLinks, colorblocks } from '../styles/main.module.css'
-import main from '../SVG/main.svg'
+import { containerMain, redDot, blackSectionTop, blackSectionBottom, whiteSection,lastName, SVGContainerTop, SVGContainerDown, CTA, line, CTABlack, linewhite, containerLinks, colorblocks } from '../styles/main.module.css'
+import { StaticImage } from "gatsby-plugin-image";
 import ExternalLinks from '../components/ExternalLinks'
 import ColorBlocks from '../components/ColorBlock'
 
@@ -15,8 +15,8 @@ export default function index() {
                 />
             </nav>
             <div className={blackSectionTop}>
-                <div className={SVGContainer}>
-                    <img src={main} alt="graphic complement" />
+                <div >
+                    <StaticImage src='../images/main.svg' alt="graphic complement" className={SVGContainerTop} />
                 </div>
             </div>
             <section className={whiteSection}>
@@ -40,8 +40,8 @@ export default function index() {
                 </div>
             </section>
             <div className={blackSectionBottom}>
-                <div className={SVGContainer}>
-                    <img src={main} alt="graphic complement" />
+                <div>
+                    <StaticImage src='../images/main.svg' alt="graphic complement" className={SVGContainerDown} />
                 </div>
                 <div className={CTABlack}>
                     <div className={linewhite}/>

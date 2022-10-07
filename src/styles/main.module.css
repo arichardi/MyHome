@@ -63,7 +63,7 @@
 }
 
 
-.blackSectionTop img{
+.SVGContainerTop{
     margin: auto;
     width: min(90vw, 430px);
     transform: rotate(90deg);
@@ -87,7 +87,7 @@
     
 }
 
-.blackSectionBottom img{
+.SVGContainerDown{
     margin: auto;
     width: min(90vw, 370px);
     transform: rotate(90deg);
@@ -103,11 +103,11 @@
         grid-template-rows: 0.15fr 0.25fr 1.7fr 0.9fr;
     }
 
-    .blackSectionBottom img {
+    .SVGContainerDown {
         margin-top: 40vh;
     }
 
-    .blackSectionTop img {
+    .SVGContainerTop {
         margin-top: 10px;
         margin-left: 28px;
     }
@@ -184,7 +184,7 @@
         
     }
 
-    .blackSectionBottom img{
+    .SVGContainerDown{
         margin: auto;
         width: min(75vw, 1200px);
         height: 100vh;
