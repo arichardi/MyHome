@@ -26,9 +26,9 @@ Atualmente dialogo com essas 3 grandes questões, o design gráfico, a lógica d
                 alt='A photo of myself' 
                 placeholder='blurred'
                 layout='constrained'
-                width={1016}
-                height={1176}
-
+                width={508}
+                height={588}
+                style={{ marginTop: 65 }}
                 />
         </section>
         <section className={tagSectionNoPIc}>

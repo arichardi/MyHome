@@ -16,7 +16,7 @@ export default function index() {
             </nav>
             <div className={blackSectionTop}>
                 <div >
-                    <StaticImage src='../images/main.svg' alt="graphic complement" className={SVGContainerTop} />
+                    <StaticImage src='../images/mainGraphic.svg' alt="graphic complement" className={SVGContainerTop} />
                 </div>
             </div>
             <section className={whiteSection}>
@@ -41,7 +41,7 @@ export default function index() {
             </section>
             <div className={blackSectionBottom}>
                 <div>
-                    <StaticImage src='../images/main.svg' alt="graphic complement" className={SVGContainerDown} />
+                    <StaticImage src='../images/mainGraphic.svg' alt="graphic complement" className={SVGContainerDown} />
                 </div>
                 <div className={CTABlack}>
                     <div className={linewhite}/>
