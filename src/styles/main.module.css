@@ -68,7 +68,7 @@
     width: min(90vw, 430px);
     transform: rotate(90deg);
     display: flex;
-    margin-top: 105px;
+    margin-top: 75px;
     z-index: 0;
 
 }
@@ -92,7 +92,7 @@
     width: min(90vw, 370px);
     transform: rotate(90deg);
     display: flex;
-    margin-top: 195px;
+    margin-top: 175px;
     z-index: 0;
     
 }
