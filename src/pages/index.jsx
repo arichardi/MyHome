@@ -41,7 +41,13 @@ export default function index() {
             </section>
             <div className={blackSectionBottom}>
                 <div>
-                    <StaticImage src='../images/mainGraphic.svg' alt="graphic complement" className={SVGContainerDown} />
+                    <StaticImage src='../images/mainGraphic.svg' 
+                    alt="graphic complement" 
+                    className={SVGContainerDown} 
+                    layout='constrained' 
+                    width={1200}
+                    style={{position: 'absolute'}}
+                    />
                 </div>
                 <div className={CTABlack}>
                     <div className={linewhite}/>
